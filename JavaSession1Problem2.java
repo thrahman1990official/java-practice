@@ -9,9 +9,9 @@
 //Hello
 
 //output
-//12
-//3.14
-//Hello
+//Int: 12
+//Float: 3.14
+//Stirng: Hello
 
 import java.util.Scanner;
 
