@@ -19,9 +19,9 @@ public class SampleSeries
   {
    Scanner scanner = new Scanner(System.in);
     
-    int x = scanner.nextInt();
-    int y = scanner.nextInt();
-    int z = scanner.nextInt();
+    int a = scanner.nextInt();
+    int b = scanner.nextInt();
+    int n = scanner.nextInt();
     
     int output = a;
     
