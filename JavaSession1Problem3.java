@@ -9,3 +9,18 @@
 //2
 //8
 //26
+
+import java.util.Map;
+import java.util.Scanner;
+
+public class SampleSeries
+{
+  public static void main(String[] args)
+  {
+   Scanner scanner = new Scanner(System.in);
+    
+    int x = scanner.nextInt();
+    int y = scanner.nextInt();
+    int z = scanner.nextInt();
+  }
+}
