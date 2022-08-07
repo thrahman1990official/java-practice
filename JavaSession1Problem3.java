@@ -22,5 +22,13 @@ public class SampleSeries
     int x = scanner.nextInt();
     int y = scanner.nextInt();
     int z = scanner.nextInt();
+    
+    int output = a;
+    
+    for(int i = 0; i < n; i++)
+      {
+      output += (b * Math.pow(3, i));
+      System.out.println(output);
+      }
   }
 }
