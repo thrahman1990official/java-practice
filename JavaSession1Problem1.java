@@ -15,8 +15,20 @@ public class StdInStdOut    //Creating class called StdInStdOut
     
     int count = scanner.nextInt();    //Creating a count variable that scans next couple of integers
     
-    int myIntArray[] = new int[count];
+    int intArray[] = new int[count];
     int index = 0;
     
+    while (count > 0)
+    {
+     int input = scanner.nextInt();
+     intArray[index] = input;
+     index++;
+     count--;
+    }
+    
+    for (int element: intArray)
+      {
+      System.out.println(element);  //Printing the output array
+      }
   }
 }
