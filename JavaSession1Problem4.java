@@ -24,7 +24,7 @@ import java.util.locale;
 public class AnagramCheck
 {
   public static void main(String[] args)
-  {
+    {
     String str1 = "Race";
     String str2 = "Care";
     
@@ -34,7 +34,20 @@ public class AnagramCheck
       System.out.println("Input strings are anagrams.");
     else
       System.out.println("Input strings are NOT anagram.");
-  }
+    }
+  private static boolean areAnagrams(String str1, String str2)
+    {
+    boolean result = false;
+    
+    if(str1.length() == str2.length())
+      {
+      String s1 = str1.toLowerCase();
+      String s2 = str2.toLowerCase();
+      
+      char[] chars1 = s1.toCharArray();
+      char[] chars2 = s2.toCharArray();
+      }
+    }
 }
 
 
