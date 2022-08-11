@@ -29,6 +29,11 @@ public class AnagramCheck
     String str2 = "Care";
     
     boolean result = areAnagrams(str1, str2);
+    
+    if(result)
+      System.out.println("Input strings are anagrams.");
+    else
+      System.out.println("Input strings are NOT anagram.");
   }
 }
 
