@@ -18,5 +18,19 @@
 //2ND -> CONVERT STRINGS TO CHARARRAYS
 //3RD -> SORT CHARARRAYS & CHECK FOR EQUALITY
 
+import java.util.Arrays;
+import java.util.locale;
+
+public class AnagramCheck
+{
+  public static void main(String[] args)
+  {
+    String str1 = "Race";
+    String str2 = "Care";
+    
+    boolean result = areAnagrams(str1, str2);
+  }
+}
+
 
 
