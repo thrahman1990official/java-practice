@@ -19,5 +19,7 @@ public class RemoveDuplicates
     
   input = input.toLowerCase(locale.ROOT);
     
+    LinkedHashSet<String> stringLinkedHashSet = new LinkedHashSet<>();
+    
     }
   }
