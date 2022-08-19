@@ -23,6 +23,8 @@ public class ReverseWords
     String input = "my name is Jay";
     
     Stack<String> stringStack = new Stack<String>();
+    
+    String[] words = input.split("\\s+");
     }
   }
 
