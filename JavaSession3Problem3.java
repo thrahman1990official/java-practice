@@ -25,6 +25,16 @@ public class ReverseWords
     Stack<String> stringStack = new Stack<String>();
     
     String[] words = input.split("\\s+");
+    
+    for (String word: words)
+      stringStack.push(word);
+      
+    String output = "";
+    
+    while(!stringStack.isEmpty())
+      output = output + stringStack.pop() + "";
+    
+    System.out.println("Output: " + output);
     }
   }
 
