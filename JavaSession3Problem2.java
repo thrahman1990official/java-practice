@@ -21,5 +21,17 @@ public class RemoveDuplicates
     
     LinkedHashSet<String> stringLinkedHashSet = new LinkedHashSet<>();
     
+    String[] words = input.split("\\s+");
+    
+    for (String word: words)
+        stringLinkedHashSet.add(word);
+    
+    String output = "";
+    
+    for(String word: stringLinkedHashSet)
+      {
+      output = output + word + "";
+      }
+    System.out.println("Output: " + output);
     }
   }
