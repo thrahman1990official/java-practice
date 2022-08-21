@@ -27,6 +27,15 @@ public class ComparatorExample
   public static void main(String[] arg)
     {
     Student[] students = new Student[5];
+    ModifiedChecker modifiedChecker = new ModifiedChecker();
+    
+    students[0] = new Student("Andrew", 100);
+    students[1] = new Student("Jack", 75);
+    students[2] = new Student("Justin", 75);
+    students[3] = new Student("Joe", 125);
+    students[4] = new Student("Amy", 100);
+    
+    Array.sort(students, modifiedChecker);
     }
   }
 
