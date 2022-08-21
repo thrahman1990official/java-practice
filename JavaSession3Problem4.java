@@ -36,6 +36,10 @@ public class ComparatorExample
     students[4] = new Student("Amy", 100);
     
     Array.sort(students, modifiedChecker);
+    
+    for(Student student: students)
+        System.out.println(student.studentName + " " + student.score);
+      
     }
   }
 
