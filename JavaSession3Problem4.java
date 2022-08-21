@@ -22,6 +22,31 @@
 //  if s1 < s2, it returns negative number
 //  if s1 == s2, it returns zero
 
+import java.util.Arrays;
+import java.util.Comparator;
+
+class ModifiedChecker implements Comparator<Student>
+  {
+  public int compare(Student student1, Student student2)
+    {
+    if (student1.score == student2.score)
+        return student1.studentName.compareTo(Student2.studentName);
+    else if (student1.score > student2.score)
+        return -1;
+    else
+        return 1;
+    }
+  }
+  
+class Student
+{
+ Student(String name, int score)
+ {
+  this.studentName = name;
+  this.score = score;
+ }
+}
+
 public class ComparatorExample
   {
   public static void main(String[] arg)
@@ -38,8 +63,7 @@ public class ComparatorExample
     Array.sort(students, modifiedChecker);
     
     for(Student student: students)
-        System.out.println(student.studentName + " " + student.score);
-      
+        System.out.println(student.studentName + " " + student.score); 
     }
   }
 
