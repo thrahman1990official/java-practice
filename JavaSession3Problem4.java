@@ -22,7 +22,12 @@
 //  if s1 < s2, it returns negative number
 //  if s1 == s2, it returns zero
 
-
-
+public class ComparatorExample
+  {
+  public static void main(String[] arg)
+    {
+    Student[] students = new Student[5];
+    }
+  }
 
 
