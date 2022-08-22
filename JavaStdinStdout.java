@@ -21,6 +21,6 @@ public class JavaStdinStdout
     
       scanner.close();
     
-      System.out.println("name is: " + name "age is: " + age);
+      System.out.println("name is: " + name + "\n" + " age is: " + age);
       }
 }
