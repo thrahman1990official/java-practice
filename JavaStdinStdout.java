@@ -11,6 +11,14 @@ public class JavaStdinStdout
   
   static void myfunction()
       {
-      System.out.println("Talha Rahman is the tutor");
+      System.out.println("Take an input");
+    
+      Scanner scanner = new Scanner(System.in);   //scanner class input
+    
+      String name = scanner.next();
+    
+      int age = scanner.nextInt();
+    
+      scanner.close();
       }
 }
