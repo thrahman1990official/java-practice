@@ -19,8 +19,12 @@ public class JavaStdinStdout
     
       int age = scanner.nextInt();
     
+      int ID = scanner.nextInt();
+    
+      double amount = scanner.nextDouble();
+    
       scanner.close();
     
-      System.out.println("name is: " + name + "\n" + " age is: " + age);
+      System.out.println("name is: " + name + "\n" + " age is: " + age + "\n" + "id is " + id);
       }
 }
