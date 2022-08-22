@@ -20,5 +20,7 @@ public class JavaStdinStdout
       int age = scanner.nextInt();
     
       scanner.close();
+    
+      System.out.println("name is: " + name "age is: " + age);
       }
 }
