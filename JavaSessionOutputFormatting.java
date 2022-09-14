@@ -26,6 +26,10 @@ public class JavaSessionOutputFormatting      //class name should always be same
     
     System.out.println("Enter integer: ");
         int i1 = scanner.nextInt();                    //we will create an integer type variable input called i1 and insert values using scanner class
-    
+            
+    if (i1<0 || i1>999)
+      {
+      System.out.println("Enter integer within the specified range");
+      }
     }
 }
