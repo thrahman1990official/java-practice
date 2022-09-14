@@ -46,9 +46,9 @@ public class JavaSessionOutputFormatting      //class name should always be same
     
     int numberOfSpaces = 15 - s1.length();    //total length should be 15 & number of spaces is the total length substracted from string s1 length
     
-    for (int i3 = 0; i3<numberOfSpaces; i3++)
+    for (int i3 = 0; i3<numberOfSpaces; i3++)     //for loop for adding spaces between string characters
       {
-      s1 = s1 + " ";
+      s1 = s1 + " ";                              //we are iterating the spaces between the string characters
       }
     
     System.out.println("The final output is \n" + s1 + i2);
