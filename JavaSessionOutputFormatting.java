@@ -15,6 +15,8 @@ public class JavaSessionOutputFormatting      //class name should always be same
 {
   public static void main(String [] args)
     {
-    Scanner scanner = new Scanner(System.in);
+    Scanner scanner = new Scanner(System.in);     //Scanner class input
+    
+    System.out.println("Enter string: ");
     }
 }
