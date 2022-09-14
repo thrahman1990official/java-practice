@@ -15,6 +15,7 @@ public class JavaSessionOutputFormatting      //class name should always be same
 {
   public static void main(String [] args)
     {
+    
     Scanner scanner = new Scanner(System.in);     //Scanner class input
     
     System.out.println("Enter string: "); 
@@ -33,5 +34,10 @@ public class JavaSessionOutputFormatting      //class name should always be same
       System.out.println("Enter integer within the specified range");       
         i1 = scanner.nextInt();                                             //you will need to re-enter the integer value once again
       }
+    
+    if (String.valueOf(i1).length()==2)
+        {
+        i2="0"+i1;
+        }
     }
 }
