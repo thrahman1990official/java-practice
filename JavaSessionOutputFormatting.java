@@ -22,14 +22,16 @@ public class JavaSessionOutputFormatting      //class name should always be same
     if(s1.length()>10)                              //if condition stating that if string length of number of characters entered is greater than ten
       {
       System.out.println("Enter string less than 10");
+      s1 = scanner.next();                              //re-enter the string characters to the appropriate string value
       }
     
     System.out.println("Enter integer: ");
         int i1 = scanner.nextInt();                    //we will create an integer type variable input called i1 and insert values using scanner class
             
-    if (i1<0 || i1>999)
+    if (i1<0 || i1>999)                               //if the integer value is not within the range of 0 to 999
       {
-      System.out.println("Enter integer within the specified range");
+      System.out.println("Enter integer within the specified range");       
+        i1 = scanner.nextInt();                                             //you will need to re-enter the integer value once again
       }
     }
 }
