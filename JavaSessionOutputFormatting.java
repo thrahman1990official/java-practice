@@ -19,11 +19,13 @@ public class JavaSessionOutputFormatting      //class name should always be same
     
     System.out.println("Enter string: "); 
         String s1 = scanner.next();                 //We will create a String type variable input called s1 and insert values using scanner class
+    if(s1.length()>10)                              //if condition stating that if string length of number of characters entered is greater than ten
+      {
+      System.out.println("Enter string less than 10");
+      }
     
     System.out.println("Enter integer: ");
         int i1 = scanner.nextInt();                    //we will create an integer type variable input called i1 and insert values using scanner class
-    
-    
     
     }
 }
