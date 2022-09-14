@@ -23,8 +23,18 @@ public class JavaSessionLoops1
     
     System.out.println("Enter a number");
     
-    int numberToBeIterated = scanner.nextInt();
+    int numberToBeIterated = scanner.nextInt();   //integer numberToBeIterated is declared as an input where numbers are entered
     
-    scanner.close();
+    myFunction(numberToBeIterated);   //function call with input numberToBeIterated
+    
+    scanner.close();  //used for closing usage of input scanner
     } 
+  
+  static void myFunction(int numInput) //creating a static function called myFunction that takes input numInput that is called from main class input numberToBeIterated
+    {
+      for(int x=1; x<=10; x++)
+        {
+        
+        }
+    }
   }
