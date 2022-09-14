@@ -32,9 +32,11 @@ public class JavaSessionLoops1
   
   static void myFunction(int numInput) //creating a static function called myFunction that takes input numInput that is called from main class input numberToBeIterated
     {
-      for(int x=1; x<=10; x++)
+      for(int i=1; i<=10; i++)
         {
+        int result = numInput*i;
         
+        System.out.println(numInput + " * " + i + " = " + result);    // N x i = result 
         }
     }
   }
