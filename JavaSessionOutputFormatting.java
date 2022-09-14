@@ -35,9 +35,9 @@ public class JavaSessionOutputFormatting      //class name should always be same
         i1 = scanner.nextInt();                                             //you will need to re-enter the integer value once again
       }
     
-    if (String.valueOf(i1).length()==2)
+    if (String.valueOf(i1).length()==2)       //we are converting integer i1 into a string value of i2 
         {
-        i2="0"+i1;
+        i2="0"+i1;                             //if its value is of two digits, we add zero in front of it
         }
     }
 }
