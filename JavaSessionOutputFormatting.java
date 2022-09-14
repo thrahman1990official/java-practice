@@ -39,7 +39,7 @@ public class JavaSessionOutputFormatting      //class name should always be same
         {
         i2="0"+i1;                             //if its value is of two digits, we add zero in front of it
         }
-    else if (String.valueOf(i1).length()==2)
+    else if (String.valueOf(i1).length()==1)
         {
         i2="00"+i1;
         }
