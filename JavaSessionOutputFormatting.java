@@ -15,7 +15,7 @@ public class JavaSessionOutputFormatting      //class name should always be same
 {
   public static void main(String [] args)
     {
-    //script starts
+
     Scanner scanner = new Scanner(System.in);     //Scanner class input
     
     System.out.println("Enter string: "); 
@@ -43,6 +43,8 @@ public class JavaSessionOutputFormatting      //class name should always be same
         {
         i2="00"+i1;
         }
-    //script ends
+    
+    int numberOfSpaces = 15 - s1.length();
+    
     }
 }
