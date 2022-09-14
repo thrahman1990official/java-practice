@@ -44,7 +44,14 @@ public class JavaSessionOutputFormatting      //class name should always be same
         i2="00"+i1;
         }
     
-    int numberOfSpaces = 15 - s1.length();
+    int numberOfSpaces = 15 - s1.length();    //total length should be 15 & number of spaces is the total length substracted from string s1 length
+    
+    for (int i3 = 0; i3<numberOfSpaces; i3++)
+      {
+      s1 = s1 + " ";
+      }
+    
+    System.out.println("The final output is \n" + s1 + i2);
     
     }
 }
