@@ -7,3 +7,12 @@
 //The first column contains String & is left justified using exactly 15 characters
 //The second column contacts Integer, expressed in exactly in 3 digits, if original input has less than three digits, you must pad your output's
 //leading digits with zeroes
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class JavaSessionOutputFormatting
+{
+  
+  
+}
