@@ -17,6 +17,13 @@ public class JavaSessionOutputFormatting      //class name should always be same
     {
     Scanner scanner = new Scanner(System.in);     //Scanner class input
     
-    System.out.println("Enter string: ");
+    System.out.println("Enter string: "); 
+        String s1 = scanner.next();                 //We will create a String type variable input called s1 and insert values using scanner class
+    
+    System.out.println("Enter integer: ");
+        int i1 = scanner.nextInt();                    //we will create an integer type variable input called i1 and insert values using scanner class
+    
+    
+    
     }
 }
