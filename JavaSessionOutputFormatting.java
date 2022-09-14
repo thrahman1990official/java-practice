@@ -11,8 +11,10 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class JavaSessionOutputFormatting
+public class JavaSessionOutputFormatting      //class name should always be same as file name
 {
-  
-  
+  public static void main(String [] args)
+    {
+    Scanner scanner = new Scanner(System.in);
+    }
 }
