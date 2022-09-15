@@ -48,7 +48,10 @@ public class JavaSessionLoops2
     
       for (int x=0; x<n; x++)
       {
-        
+        for (int j=0; j<x; j++)
+        {
+          result = (int)Math.pow(2, j)*b;
+        }
       }
       System.out.println(finalOutput);
     }
