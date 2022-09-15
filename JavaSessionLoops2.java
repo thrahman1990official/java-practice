@@ -34,7 +34,17 @@ public class JavaSessionLoops2
     
     System.out.println("Constant value that needs to be multiplied with every element: ");
       int b = scanner.nextInt();
-      
+    
+    myFunction(n, a, b);
+    
     scanner.close();
+    }
+  
+  static void myFunction(int n, int a, int b)
+    {
+      for (int x=0; x<n; x++)
+      {
+        
+      }
     }
   }
