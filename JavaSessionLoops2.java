@@ -30,10 +30,10 @@ public class JavaSessionLoops2
       int n = scanner.nextInt(); 
     
     System.out.println("Initial Value: ");
-      int n = scanner.nextInt();
+      int a = scanner.nextInt();
     
     System.out.println("Constant value that needs to be multiplied with every element: ");
-      int n = scanner.nextInt();
+      int b = scanner.nextInt();
       
     scanner.close();
     }
