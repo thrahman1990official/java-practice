@@ -25,5 +25,16 @@ public class JavaSessionLoops2
   public static void main(String[] args)
     {
     Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Number of times series need to be implemented: ");
+      int n = scanner.nextInt(); 
+    
+    System.out.println("Number of times series needs to be implemented: ");
+      int n = scanner.nextInt();
+    
+    System.out.println("Number of times series needs to be implemented: ");
+      int n = scanner.nextInt();
+      
+    scanner.close();
     }
   }
