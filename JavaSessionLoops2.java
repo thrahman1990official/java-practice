@@ -42,9 +42,14 @@ public class JavaSessionLoops2
   
   static void myFunction(int n, int a, int b)
     {
+      int result, finalResult = 0;
+    
+      String finalOutput = null;
+    
       for (int x=0; x<n; x++)
       {
         
       }
+      System.out.println(finalOutput);
     }
   }
