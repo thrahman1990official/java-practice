@@ -52,6 +52,7 @@ public class JavaSessionLoops2
         {
           result = (int)Math.pow(2, j)*b;
         }
+        finalResult = a + result;
       }
       System.out.println(finalOutput);
     }
