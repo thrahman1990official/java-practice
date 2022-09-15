@@ -29,10 +29,10 @@ public class JavaSessionLoops2
     System.out.println("Number of times series need to be implemented: ");
       int n = scanner.nextInt(); 
     
-    System.out.println("Number of times series needs to be implemented: ");
+    System.out.println("Initial Value: ");
       int n = scanner.nextInt();
     
-    System.out.println("Number of times series needs to be implemented: ");
+    System.out.println("Constant value that needs to be multiplied with every element: ");
       int n = scanner.nextInt();
       
     scanner.close();
