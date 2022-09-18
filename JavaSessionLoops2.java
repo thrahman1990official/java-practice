@@ -50,7 +50,7 @@ public class JavaSessionLoops2
       {
         for (int j=0; j<x; j++)
         {
-          result = (int)Math.pow(2, j)*b;
+          result = (int)Math.pow(2, j)*b + result;
         }
         finalResult = a + result;
         finalOutput = finalOutput + String.valueOf(finalResult) + " ";
