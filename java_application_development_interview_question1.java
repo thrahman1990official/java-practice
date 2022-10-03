@@ -39,4 +39,4 @@ public class java_application_development_interview_question1
 
 //Concepts to know: Constructor, Final Class
 //Constructor is special function called only at the time of objectation & name is same as class name
-
+//Final class is a type of class that no one can get inheritence from
