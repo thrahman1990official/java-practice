@@ -31,7 +31,7 @@ public class java_application_development_interview_question1
     {
     public static void main(String [] args)
       {
-      new abc();
+      new abc();  //here we have created abc object meaning abc constructor is going to be called
       }
     }
 //till the above bracket if you are testing on an online compiler
